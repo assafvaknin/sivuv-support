@@ -34,6 +34,12 @@ h1 { margin: 0; font-size: clamp(2.1rem, 8vw, 3.7rem); letter-spacing: -0.04em; 
 h2 { margin: 38px 0 14px; font-size: 1.5rem; }
 h3 { margin: 0 0 9px; font-size: 1.15rem; }
 p { margin: 0 0 14px; }
+ul { margin: 0 0 14px; padding-right: 1.3rem; }
+a { color: var(--accent-dark); }
+a:focus-visible, .button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
+}
 .lead { margin: 10px 0 4px; color: var(--muted); font-size: 1.32rem; }
 
 .card {
