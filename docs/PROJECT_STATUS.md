@@ -24,7 +24,7 @@ Four dependency-free local tests pass.
 
 # CI Status
 
-The exact transition commit has `Local Mac verification: success`. The support-site test workflow remains active and protected `main` still requires `Validate support site` until explicit owner approval completes the migration. GitHub Pages remains active as deployment only.
+Protected `main` requires `Local Mac verification`, and the exact transition commit has a successful result. The support-site test workflow is disabled. GitHub Pages remains active as deployment only.
 
 # Known Issues
 
@@ -36,7 +36,7 @@ Move only tests to the Mac while preserving the production Pages deployment.
 
 # Blockers
 
-Explicit approval to replace the historical required check and disable the test workflow. Apple review remains external.
+No repository-protection blocker remains. Apple review remains external.
 
 # Recent Important Decisions
 
