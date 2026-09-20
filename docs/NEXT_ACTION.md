@@ -9,15 +9,15 @@ The four public pages and four tests already pass locally. Only the test workflo
 # Current State
 
 - `chore/local-verification` has a successful exact-commit local result.
-- Protected `main` still requires `Validate support site`.
-- The test workflow is active pending approval.
+- Protected `main` requires `Local Mac verification`.
+- The test workflow is disabled.
 - GitHub Pages is active and must remain active.
 
 # Required Work
 
-1. After explicit owner approval, replace the historical required test context with `Local Mac verification` without changing any other protection.
-2. Disable only the support-site test workflow; explicitly keep the Pages workflow active.
-3. Open, review, and merge the focused transition PR through protected `main`.
+1. Re-run local verification on the final transition commit and publish its exact result.
+2. Open, review, and merge the focused transition PR through protected `main`.
+3. Confirm the test workflow remains disabled and the Pages workflow remains active.
 4. Verify all live support URLs after deployment.
 5. After the Sivuv review result, compare the released behavior with support, privacy, terms, and accessibility content.
 
